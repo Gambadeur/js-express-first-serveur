@@ -1,0 +1,22 @@
+{
+  "name": "js-express-first-serveur",
+  "version": "1.0.0",
+  "description": "premier serveur express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gambadeur/js-express-first-serveur.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gambadeur/js-express-first-serveur/issues"
+  },
+  "homepage": "https://github.com/Gambadeur/js-express-first-serveur#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
