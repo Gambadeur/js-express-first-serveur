@@ -12,7 +12,6 @@ app.get('/about', function (req, res){
     res.send('about');
 });
 
-
 app.get('/doudou/*', (req, res) => {
     res.send('doudou');
     console.log('params:', req.params )
