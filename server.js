@@ -36,6 +36,7 @@ app.use(myLogger);
 
 var requestTime = function (req, res, next) {
     req.requestTime = Date.now();
+    console.log('test');
     next();
 };
 
