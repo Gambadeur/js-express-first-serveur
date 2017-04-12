@@ -9,6 +9,8 @@ const urlBdd = 'postgres://@localhost/db_firstserver';
 const urlBdd2 = 'postgres://@localhost/base1';
 
 
+var port = process.env.PORT || 5000;
+
 //Bodyparser pour récupérer la donnée dans la BDD
 
 app.use(bodyParser.urlencoded({extended:false}));
@@ -141,6 +143,6 @@ app.get('/', (req, res) =>{
 
 
 
-app.listen(5000, function(){
+app.listen(port, function(){
     console.log('Example app listening on port 5000!');
 });
